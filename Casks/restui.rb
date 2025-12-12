@@ -3,7 +3,7 @@ cask "restui" do
   name "restui"
   desc "API client in your terminal"
   homepage "https://github.com/arfadmuzali/restui"
-  version "0.0.2"
+  version "1.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "restui" do
 
   on_macos do
     on_intel do
-      url "https://github.com/arfadmuzali/solid-barnacle/releases/download/v#{version}/solid-barnacle_Darwin_x86_64.tar.gz"
-      sha256 "d1885643ac609c16a2e66797bb7c12c90bc5d06c82483268c2bc91565f1e466d"
+      url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Darwin_x86_64.tar.gz"
+      sha256 "b37a937ba83d3f2f7215c0948d33bb8ffb7e60edcfe82fb36663158acb4a71ea"
     end
     on_arm do
-      url "https://github.com/arfadmuzali/solid-barnacle/releases/download/v#{version}/solid-barnacle_Darwin_arm64.tar.gz"
-      sha256 "de7faa8ec2cd6272264e2aa1addccecaeae380bba312a0584e39680c434b4b56"
+      url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Darwin_arm64.tar.gz"
+      sha256 "ac3cead9f6064d2d4bc373589d0cb4ecce61e09b1a86a79b61aa1b4b6dc460d1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arfadmuzali/solid-barnacle/releases/download/v#{version}/solid-barnacle_Linux_x86_64.tar.gz"
-      sha256 "53116827e7164d88c0fb3824dac0c221a7e8957115eafef465520c10f207d5bc"
+      url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Linux_x86_64.tar.gz"
+      sha256 "f1c4ec1662b0ce357368231ebe42619b8060b3fd7fefbf1bfa6f492216a2c08d"
     end
     on_arm do
-      url "https://github.com/arfadmuzali/solid-barnacle/releases/download/v#{version}/solid-barnacle_Linux_arm64.tar.gz"
-      sha256 "36f0dc3c2d4165a979236d685bdbde542b763bfc540804273ace0a9fe89f801c"
+      url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Linux_arm64.tar.gz"
+      sha256 "dab5cbd3954dc5de5fd753e24bd969459d508f61ed2be2368423b1e2060ffb9a"
     end
   end
 

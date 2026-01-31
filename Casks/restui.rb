@@ -3,7 +3,7 @@ cask "restui" do
   name "restui"
   desc "API client in your terminal"
   homepage "https://github.com/arfadmuzali/restui"
-  version "1.2.1"
+  version "1.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "restui" do
   on_macos do
     on_intel do
       url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Darwin_x86_64.tar.gz"
-      sha256 "0c3a663224ef595d6292f8afd260ee036432ba2aac860456fae011141124ef63"
+      sha256 "711223fe26189bf45d74ea99d94192d5efa8ac9ba844e102eebc296d735e94f5"
     end
     on_arm do
       url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Darwin_arm64.tar.gz"
-      sha256 "7c65db21a1bae9f31cf1b5f057078d1bc2a973f998364a6978af27e5de5b4d48"
+      sha256 "4167a44cc65d1eb325cc8e98adf2a6019ebe080deae7088acd28f731d30d58cf"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Linux_x86_64.tar.gz"
-      sha256 "490ac65d2d1e4af6ca9b991736c94e6d96ed2d103e5d7758659d8f41e7c563ec"
+      sha256 "6ba7d13c7fde6df943f7d622ce9202034dc29ec31eb876d1d7acccff6a10afe9"
     end
     on_arm do
       url "https://github.com/arfadmuzali/restui/releases/download/v#{version}/restui_Linux_arm64.tar.gz"
-      sha256 "2c6e1c7f841fa57d3a831874472a0e6e25fa5525e958be24dbbc94b804b14a09"
+      sha256 "87c920b8798fcfa2041f0535b69001ce327880d11d1f30f80bcbd1601debbd20"
     end
   end
 
